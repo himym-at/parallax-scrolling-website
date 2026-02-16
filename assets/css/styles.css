@@ -155,22 +155,22 @@ img {
 }
 
 .home__parallax-img1 {
-  background-image: url("/assets/img/imgm1.png");
+  background-image: url("../img/imgm1.png");
   z-index: var(--z-normal);
 }
 
 .home__parallax-img2 {
-  background-image: url("/assets/img/imgm2.png");
+  background-image: url("../img/imgm2.png");
   z-index: var(--z-tooltip);
 }
 
 .home__parallax-img3 {
-  background-image: url("/assets/img/imgm3.png");
+  background-image: url("../img/imgm3.png");
   z-index: var(--z-fixed);
 }
 
 .home__parallax-img4 {
-  background-image: url("/assets/img/imgm4.png");
+  background-image: url("../img/imgm4.png");
   z-index: var(--z-fixed);
 }
 
@@ -257,6 +257,45 @@ img {
 .section__img {
   width: 285px;
   border-radius: .5rem;
+}
+
+
+.back-home {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+.back-home__link {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--first-color);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--white-color);
+  background-color: rgba(3, 150, 166, 0.2);
+  font-size: 1.6rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.back-home__link:hover {
+  background-color: var(--first-color);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 /*===== MEDIA QUERIES =====*/
